@@ -1,0 +1,23 @@
+html, body {
+    height: 95%;
+    background-color: #000000;
+    margin: 0;
+
+  }
+.page-back{
+    height: 100%;
+    background-color: #000000;
+    padding-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.id-back{
+    height: 100%;
+    background-image: url('about-back.jpg');
+    border-radius: 20px;
+    border:2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
