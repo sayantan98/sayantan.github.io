@@ -12,7 +12,6 @@ html, body {
     margin-right: 2em;
 }
 .id-back{
-    height: 100%;
     background-image: url('about-back.jpg');
     border-radius: 20px;
     border:2px solid #fff;
@@ -21,3 +20,9 @@ html, body {
     -webkit-box-shadow: 10px 10px 5px #ccc;
     -khtml-box-shadow: 10px 10px 5px #ccc;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+  }
