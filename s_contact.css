@@ -1,0 +1,206 @@
+html, body {
+    background-color: #000000;
+    margin: 0;
+
+  }
+.heading{
+    background-image: url('contact-treat.jpg');
+    height: 30vh;
+    background-size: cover;
+}
+.reach{
+  background-image: url('reach-gradient.png');
+  background-size: cover;
+  border-radius: 30px;
+}
+.navig {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.navig-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navig a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navig a:hover, .navig a:focus {
+  color: #f1f1f1;
+}
+
+.navig .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.menu {
+  background: transparent;
+  color: black;
+  height: 5vh;
+  width: 15vh;
+  float: left;
+  margin-left: 1em;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+}
+.fa-github {
+  font-size: 23px;
+  color: white;
+}
+.fa-whatsapp {
+  background-color: #25D366;
+  color: white;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.t-d:hover > .t-dn:not(:hover) {
+  filter: blur(1.5px);
+}
+.cont {
+  color: #ffffff;
+  background-image: url('contact-get.jpg');
+  margin: 3.9em;
+  width:85vh;
+  border-radius: 30px;
+}
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+}
+.validate-input {
+  position: relative;
+}
+.input100 {
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.2;
+  border-radius: 30px;
+  display: block;
+  width: 100%;
+  height: 52px;
+  background: transparent;
+  padding: 0 15px;
+}
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #57b846;
+}
+
+.focus-input100::after {
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100::after {
+  top: -20px;
+  font-size: 15px;
+}
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::after {
+  top: -20px;
+  font-size: 15px;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+button.but-1:hover {
+  color: #111; 
+  background: #39f; 
+  box-shadow: 0 0 50px #39f;
+}

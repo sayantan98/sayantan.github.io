@@ -67,7 +67,7 @@ header {
     color: white;
     height: 5vh;
     width: 15vh;
-    float: right;
+    float: left;
   }
   .fa-bars:hover {
     color : red;
@@ -266,4 +266,7 @@ button.but-1:hover {
 .fa-whatsapp {
   background-color: #25D366;
   color: white;
+}
+.form-control{
+  border-radius: 15px;
 }

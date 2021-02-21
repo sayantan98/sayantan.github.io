@@ -8,12 +8,22 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="s_about.css">
-        <!--<script src="f_index.js"></script>-->
+        <script src="f_menu.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="page-back">
+          <div class="page-back">
+            <div id="myNav" class="navig">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="navig-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Skills & Services</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+            <a class="menu" onclick="openNav()"><i class="fa fa-bars fa-2x" style="font-size: 30px;"></i></a>
             <div class="id-back">
                 <h3 style="font-family: 'Courier New', Courier, monospace; color: #000000; text-align: center; padding-top: 5px;"><strong>IDENTITY PAGE</strong></h3>
                 <div class="row"><br>
