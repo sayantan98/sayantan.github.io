@@ -111,9 +111,12 @@ html, body {
 .cont {
   color: #ffffff;
   background-image: url('contact-get.jpg');
-  margin: 3.9em;
-  width:85vh;
+  margin-top: 3.9em;
   border-radius: 30px;
+  background-size: cover;
+}
+.cont-m{
+  margin-top: 3.9em;
 }
 .wrap-input100 {
   width: 100%;
